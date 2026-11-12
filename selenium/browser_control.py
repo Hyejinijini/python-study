@@ -53,3 +53,6 @@ driver.refresh()
 
 # 웹 페이지 뒤로가기
 driver.back()
+
+# 웹 페이지 앞으로 가기
+driver.forward()
