@@ -46,3 +46,7 @@ print(driver.title)
 ex_ GOOGLE_TC01_RESULT : Fail(https://google.com/)
 '''
 print(driver.current_url)
+
+# 부가 기능
+# 웹 페이지 새로고침
+driver.refresh()
