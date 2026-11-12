@@ -56,3 +56,12 @@ driver.back()
 
 # 웹 페이지 앞으로 가기
 driver.forward()
+
+# 테스트 종료
+'''
+실행중인 브라우저와 웹 드라이버를 종료함.
+driver.quit()을 사용하지 않는다면 웹 드라이버가 완전히 종료되지 않아 메모리 누수가 발생할 수 있음.
+'''
+driver.quit()
+
+time.sleep(5)
