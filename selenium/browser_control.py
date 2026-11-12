@@ -32,3 +32,10 @@ driver.set_window_size(1470, 956)
 # 웹 페이지 접근
 driver.get("https://naver.co.kr")
 driver.get("https://google.co.kr")
+
+# 웹 페이지 타이틀 출력
+'''
+테스트 결과를 기록할 때 사용
+ex) GOOGLE_TC01_RESULT : Pass
+'''
+print(driver.title)
