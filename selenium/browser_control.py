@@ -50,3 +50,6 @@ print(driver.current_url)
 # 부가 기능
 # 웹 페이지 새로고침
 driver.refresh()
+
+# 웹 페이지 뒤로가기
+driver.back()
