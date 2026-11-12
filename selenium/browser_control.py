@@ -39,3 +39,10 @@ driver.get("https://google.co.kr")
 ex) GOOGLE_TC01_RESULT : Pass
 '''
 print(driver.title)
+
+# 현재 웹 페이지의 URL 출력
+'''
+실패한 케이스에서 실패 지점으로 바로 이동할 수 있는 링크를 제공하여 현상 확인을 위해 사용 (+ 타임스탬프도 같이 제공)
+ex_ GOOGLE_TC01_RESULT : Fail(https://google.com/)
+'''
+print(driver.current_url)
