@@ -28,3 +28,7 @@ driver.set_window_size(1470, 956)
 
 # Selenium = 요소속성인식
 # Pyautogui = 좌표인식(요소를 분석할 필요가 없음, 속도가 굉장히 빠름)
+
+# 웹 페이지 접근
+driver.get("https://naver.co.kr")
+driver.get("https://google.co.kr")
